@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    margin: 0px;
+    background-color: crimson;
+}
+
+h1 {
+    text-shadow: 2px 2px #F8BBDO;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#img {
+    border-radius: 50%;
+    width: 350px;
+
+}
+
+p {
+
+    font-family: Merriweather;
+    font-size: 22px;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    z-index: 444;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 35px;
+    font-family: 'Akronim', cursive;
+}
+
+.links:hover {
+    background-color: whitesmoke;
+}
+
+.welcome {
+    background: linear-gradient(crimson 50%, red 100%);
+}
+
+.Home {
+    background-color: crimson;
+    margin-top: 0px;
+}
+
+/*.line {
+    height: 12px;
+    background-color: black;
+    width: 170px;
+    margin: 8px auto;
+}*/
+
+.Section{
+    border-bottom-style: outset;
+    border-top-style: inset;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    border-bottom-color: firebrick;
+    border-top-color: darkred;
+    border-radius: 5%;
+}
+
+#first{
+    font-size: 25px;
+}
+
+#inspImg {
+    transition: transform .10s;
+}
+
+#inspImg:hover {
+    transform: scale(0.9)
+}
